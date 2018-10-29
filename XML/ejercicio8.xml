@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido>
+<destinatario>Juan Delgado Martínez</destinatario>
+<articulo>Bicicleta A2023</articulo>
+<dirección_entrega>calle Barco 4, tercer piso, letra A</dirección_entrega>
+<fecha_entrega>19-5-2000</fecha_entrega>
+</pedido>
+
+<pedido>Pedido para el señor <destinatario>Juan Delgado Martínez</destinatario>. El pedido se compone de una <articulo>bicicleta A2023</articulo>. A entregar en la <dirección_entrega>calle Barco 4, tercer piso, letra A</dirección_entrega>, el día <fecha_entrega>19-5-2000</fecha_entrega>.</pedido>
