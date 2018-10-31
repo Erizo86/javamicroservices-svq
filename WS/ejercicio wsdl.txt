@@ -1,0 +1,15 @@
+<message name="sumRequest">
+	<part name="op1" type="xs:double" />
+	<part name="op2" type="xs:double" />
+</message>
+
+<message name="sumResponse">
+	<part name="result" type="xs:double" />
+</message>
+
+<portType name="glossatyTerms">
+	<operation name="sum">
+		<input message="sumRequest" />
+		<input message="sumResponse" />
+	</operation>
+</portType>
